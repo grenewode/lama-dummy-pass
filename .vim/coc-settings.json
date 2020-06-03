@@ -1,0 +1,15 @@
+{
+    "rust-client.disableRustup": true,
+    "rust-client.updateOnStartup": false,
+    "rust.unstable_features": false,
+    "rust-client.channel": "stable",
+    "coc.preferences.formatOnType": true,
+    "rust-analyzer.serverPath": "rust-analyzer",
+    "coc.preferences.formatOnSaveFiletypes": ["rust"],
+    "cSpell.words": [
+      "Imap",
+      "SMTP",
+      "combinator",
+      "dotenv"
+    ]
+}
