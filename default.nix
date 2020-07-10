@@ -1,7 +1,7 @@
-{ pkgs ? import <nixpkgs> { }, ... }:
+{ pkgs ? import <nixpkgs> {}, ... }:
 with pkgs;
 rustPlatform.buildRustPackage rec {
-  pname = "pass";
+  pname = "imposter-pass";
   version = "0.1.0";
 
   src = ./.;
