@@ -1,11 +1,11 @@
 # This is a simple utility to help containerize a protonmail-bridge
 
-# Install
+## Install
 
 1. Install rustup from https://rustup.rs/
 2. Once rust has installed, run `cargo install imposter-pass`
 
-# Usage
+## Usage
 1. Make sure that protonmail-bridge is not running
 2. Run
    ```bash
