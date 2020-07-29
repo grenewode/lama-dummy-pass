@@ -26,9 +26,9 @@ jobs:
         with:
           crate: cargo-deb
           version: latest
-      - run: cargo deb --output="/tmp/imposter-pass-$GITHUB_SHA.deb"
+      - run: cargo deb --output="/tmp/imposter-pass.deb"
       - name: Archive deb package
         uses: actions/upload-artifact@v2
         with:
           name: debian-package
-          path: /tmp/imposter-pass-$GITHUB_SHA.deb
+          path: /tmp/imposter-pass.deb
