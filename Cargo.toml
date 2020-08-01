@@ -3,10 +3,9 @@ name = "imposter-pass"
 description = "a simple tool for impersonating the standard unix password manager"
 homepage = "https://github.com/grenewode/imposter-pass"
 repository = "https://github.com/grenewode/imposter-pass"
-version = "0.2.1"
+version = "0.3.0"
 authors = ["Robin M <root@grenewode.io>"]
 edition = "2018"
-license = "MIT"
 license-file = "LICENSE.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
